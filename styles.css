@@ -1,0 +1,42 @@
+:root {
+    --gray: #b4b8ab;
+    --white: #f4f9e9;
+    --green: #4D685A;
+    --brown: #28190E;
+    --black: #110A03;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+.demo-bg {
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+.demo-content {
+    position: relative;
+  }
+
+body {
+    background-color: var(--black);
+    height: 100vh;
+    width: 100vw;
+}
+
+.primarycolor {
+    background-color: var(--white);
+}
