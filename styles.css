@@ -1,8 +1,8 @@
 :root {
     --gray: #b4b8ab;
     --white: #f4f9e9;
-    --green: #4D685A;
-    --brown: #28190E;
+    --green: #477A1E;
+    --brown: #241d17;
     --black: #110A03;
 }
 
@@ -60,7 +60,7 @@ body {
 .button {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
-  border-radius: 40px;
+  border-radius: 25px;
   font-weight: normal;
   transition: all 0.2s ease-in-out;
 }
@@ -71,5 +71,6 @@ body {
 
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px var(--white);
+  box-shadow: 0 2px 8px var(--white);
+  background-color: var(--brown);
 }
